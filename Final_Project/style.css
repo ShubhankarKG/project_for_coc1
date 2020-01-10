@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: #0026ff;
 }
 
 h1 {
@@ -13,22 +13,28 @@ h1 {
 footer {
     color: #DBEDF3;
     font-family: sans-serif;
+    font-size: large;
 }
 
+img {
+    vertical-align: middle;
+}
+/* Class definitions here onwards. */
+
 .test1 {
-    background-image: url("images/tom1.png");
+    background-image: url("../images/tom1.png");
 }
 
 .test2 {
-    background-image: url("images/tom2.png");
+    background-image: url("../images/tom2.png");
 }
 
 .test3 {
-    background-image: url("images/tom3.png");
+    background-image: url("../images/tom3.png");
 }
 
 .test4 {
-    background-image: url("images/tom4.png");
+    background-image: url("../images/tom4.png");
 }
 
 .set {
